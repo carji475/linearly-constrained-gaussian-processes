@@ -10,9 +10,9 @@ The folder "real-data-experiment" contains the code used for the real-data exper
 
 Note that the scripts do not use a fixed random seed, so the results obtained for different executions will not be identical.
 
-In the folder XX the magnetometer data is presented. It was collected on June 3, 2015 (2015-06-03) in the VICON LAB, University of Linköping, Sweden and has previously been presented in "Modeling and interpolation of the ambient magnetic field by Gaussian processes" IEEE Transactions on Robotics, 2017 by Solin et al.  See more details about the experiment design and the preprocessing in the supplementary material.
+In the folder "real-data-experiment/study" the magnetometer data is presented. It was collected on June 3, 2015 (2015-06-03) in the VICON LAB, University of Linköping, Sweden and has previously been presented in "Modeling and interpolation of the ambient magnetic field by Gaussian processes" IEEE Transactions on Robotics, 2017 by Solin et al.  See more details about the experiment design and the preprocessing in the supplementary material.
 
-The data is storad in a matlab .mat-file and constist of a struct with multiple fields.
+The data is stored in a matlab .mat-file and constist of a struct with multiple fields.
 time - The time stamp of the collected measurement.
 acc -  The accelerometer measurement in x, y, z coordinate, repectively.
 gyr -  The gyro measurement in x, y, z coordinates in the global coordinate frame.
