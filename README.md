@@ -2,7 +2,9 @@
 
 This repository contains code for reproducing the experiments in 
 
-"Linearly constrained Gaussian processes" (2017) by Carl Jidling, Niklas Wahlström, Adrian Wills, and Thomas B. Schön.
+Carl Jidling, Niklas Wahlström, Adrian Wills and Thomas B. Schön. Linearly constrained Gaussian processes. Advances in Neural Information Processing Systems (NIPS), Long Beach, CA, USA, December, 2017.
+Paper: http://papers.nips.cc/paper/6721-linearly-constrained-gaussian-processes
+Video summary: https://www.youtube.com/watch?v=R4Eluir9dnM
 
 The code is written in Matlab. The folder "simulation-example" contains the code used for the simulated example in section 5.1. The script "simulation_fieldplots.m" produces the field plots, and the script "simulation_study.m" performs the accuracy study. 
 
